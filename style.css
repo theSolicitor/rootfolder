@@ -1,0 +1,114 @@
+body{
+ font-family: ;
+ margin: 0 auto;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 200px;
+  margin: 10px 40px;
+  flex-wrap: wrap;
+  /**background-color:#d0daf0fb;**/
+
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+
+
+ margin: 0 50px;
+
+}
+
+h1{
+font-family: 'Indie Flower', cursive;
+color: #A81313;
+}
+
+li{
+ display: inline-block;
+ padding: 0 20px;
+
+}
+
+li a{
+ text-decoration: none;
+ text-transform: uppercase;
+ color: black;
+}
+
+a:hover{
+ color: blue;
+ font-size: 20px;
+}
+
+input{
+ width: 250px;
+ height: 25px;
+ border: 2px solid;
+ border-radius: 5px;
+ text-align: center;
+
+}
+
+button{
+ color: black;
+ background-color:#4279f1fb;
+ /**border: 2px solid white;**/
+ cursor: pointer;
+ border-radius: 5px;
+ width: 90px;
+
+}
+
+button:hover{
+ color: blue;
+ background-color: white;
+ /**border: 2px solid blue;**/
+ width: 120px;
+}
+
+.profile{
+  display: flex;
+  flex-direction: column;
+padding: 10px
+}
+.box{
+ flex: 1 0 200px;
+}
+
+.part-one{
+  text-align: center;
+  padding: 30px 0;
+}
+
+.part-one h3{
+  font-size: 36px;
+font-family: 'Indie Flower', cursive;
+color: #A81313;
+}
+
+.part-two{
+ display: flex;
+ width: 960px;
+ /**height: 200px;**/
+ justify-content: center;
+ margin: 0 130px;
+}
+
+.icons{
+ display: flex;
+ flex-direction: column;
+}
+
+
+.icons img{
+ padding: 25px;
+}
+
+.part-three{
+display:flex;
+justify-content: center;
+
+}
